@@ -1,0 +1,1 @@
+<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" global="jdbc/jndi" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/jndiDB" password="12345" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kkmutt?characterEncoding=UTF-8" username="root"/>

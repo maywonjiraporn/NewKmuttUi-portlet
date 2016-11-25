@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+        
+<liferay-portlet-app>          
+	<portlet>       
+		<portlet-name>NewKmuttUi</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>NewKmuttUi-portlet</css-class-wrapper>
+	</portlet>
+	 
+	<portlet>
+		<portlet-name>item-group</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript> 
+		    /js/Datatable.js
+		</footer-portlet-javascript>  
+		<footer-portlet-javascript>
+			/js/Itemgroup.js   		   
+		</footer-portlet-javascript>
+		<css-class-wrapper>item-group-portlet</css-class-wrapper>
+	</portlet> 
+	
+	<portlet>
+		<portlet-name>template</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript> 
+		    /js/Datatable.js
+		</footer-portlet-javascript>  
+		<footer-portlet-javascript>
+			/js/Template.js        
+		</footer-portlet-javascript>
+		<css-class-wrapper>template-portlet</css-class-wrapper>
+	</portlet>
+	
+	<portlet>
+		<portlet-name>budget</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript> 
+		    /js/Datatable.js 
+		</footer-portlet-javascript>  
+		<footer-portlet-javascript>
+			/js/Budget.js      
+		</footer-portlet-javascript>
+		<css-class-wrapper>budget-portlet</css-class-wrapper>
+	</portlet>
+	
+	<portlet>
+		<portlet-name>header</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>   
+			/js/Datatable.js  
+		</footer-portlet-javascript>  
+		<footer-portlet-javascript>     
+			/js/HeaderControll.js    
+		</footer-portlet-javascript>  
+		<footer-portlet-javascript>   
+			/js/FundControll.js
+		</footer-portlet-javascript>
+		<footer-portlet-javascript> 
+			/js/DetailControll.js 
+		</footer-portlet-javascript>
+		<footer-portlet-javascript>       
+			/js/main.js 
+		</footer-portlet-javascript>
+		<css-class-wrapper>header-portlet</css-class-wrapper>
+	</portlet>
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app>
